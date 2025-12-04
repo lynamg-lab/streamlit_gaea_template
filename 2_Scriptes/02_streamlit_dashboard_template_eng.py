@@ -68,7 +68,7 @@ st.title("Emissions Dashboard — Template example of Livestock Emissions & Stoc
 
 # Path to the prepared long CSV. For your own thematic app, update this to your prepared file.
 # The prepared file must follow the documented schema so all UI logic keeps working.
-DEFAULT_PREPARED = r"C:\Users\lynam\Documents\01_steamlit_gaea\1_Donnees\livestock_PREPARED_long.csv"
+DEFAULT_PREPARED = r"\1_Donnees\livestock_PREPARED_long.csv"
 
 # Region options exposed to users. Internally, we map each human label to its boolean flag column
 # in the dataset. Your preprocessor is responsible for computing these booleans.
