@@ -1,0 +1,17 @@
+# requirements.txt — Streamlit GAEA Template
+# Minimal set of dependencies needed to run the dashboards.
+# Pin loosely (>=) for updates while staying compatible.
+
+# --- Core runtime ---
+streamlit>=1.36
+pandas>=2.0
+altair>=5.0
+
+# --- Map tab (choropleth) ---
+# If you don't use the Map tab, you can comment Plotly out.
+plotly>=5.0
+
+# --- Notes ---
+# - numpy is pulled in by pandas automatically.
+# - No geospatial libs required: Plotly uses country names (locationmode='country names').
+# - If corporate proxies block pip, consider using a constraints file maintained by IT.
